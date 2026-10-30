@@ -1,5 +1,5 @@
 # edema.pregnancy
-edema and prenancy related issues
+edema and pregnancy related issues
 #dplyr, tidyr, table1, ggplot2, gtsummary
 data<-read_sav(file="E:/Paper 3/Mod_400_data.sav")
 data
