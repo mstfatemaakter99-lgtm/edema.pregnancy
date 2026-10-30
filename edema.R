@@ -1,31 +1,8 @@
 # edema.pregnancy
 edema and prenancy related issues
 #dplyr, tidyr, table1, ggplot2, gtsummary
-library(gtsummary)
-install.packages("readr")
-library(readr)
-library(dplyr)
-install.packages("haven")
-library(haven)
-install.packages("officer")
-library(officer)
-install.packages("flextable")
-library(flextable)
-install.packages("forcats")
-library(forcats)
-install.packages("car")
-library(car)
-install.packages("broom")
-library(broom)
-install.packages("janitor")
-library(janitor)
 data<-read_sav(file="E:/Paper 3/Mod_400_data.sav")
 data
-view(data)
-head(data)
-dim(data)
-glimpse(data)
-str(data)
 data$AGE<- as.factor(data$AGE)
 
 data1= data %>% 
