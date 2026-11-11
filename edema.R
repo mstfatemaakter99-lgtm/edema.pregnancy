@@ -29,7 +29,7 @@ data1 = data %>%
                         levels = c(1, 2),
                         labels = c("Yes", "No")),
     
-    urine_infectionC = factor(urine_infection,
+    urine_infectionC = factor(UTI,
                               levels = c(1, 2),
                               labels = c("Yes", "No")),
     
